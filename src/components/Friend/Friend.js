@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 const Friend = (props) => {
     const { id, name, email, phone } = props.friend;
